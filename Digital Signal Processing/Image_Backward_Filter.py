@@ -71,6 +71,7 @@ def Apply_Filter_Grayscale(img,fs = 2):									# Function to apply filter on a 
 	Applying Backward Differencing Method to Grayscale image
 	"""
 	size_original = np.shape(img)
+	
 	i,j= size_original[0],size_original[1]
 	output = np.zeros((i,j+fs-1))
 	
