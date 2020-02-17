@@ -27,7 +27,7 @@ def Sin_Sampling(a,b,F,A = 1,f = 1):									# Function to plot sampled Sin wave
 	f = Frequency
 	"a" and "b" are range for plotting the graph
 	"""	
-	time = np.arange(a,b,1)
+	time = np.arange(a,b,0.01)
 	amplitude = A*np.sin(2*np.pi*time*f/F)
 	
 	plt.title("Discrete Sine Wave")
@@ -39,5 +39,5 @@ def Sin_Sampling(a,b,F,A = 1,f = 1):									# Function to plot sampled Sin wave
 	return amplitude,time
 
 
-Sin_Continous(0,20,f = 1/8)
+Sin_Continous(0,20)
 Sin_Sampling(0,20,8)
