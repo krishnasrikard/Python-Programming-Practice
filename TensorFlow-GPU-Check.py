@@ -18,6 +18,11 @@ sudo apt remove libcublas10
 sudo apt install libcublas10=10.2.1.243-1
 ```
 
+Then run command
+```
+sudo apt-get install --no-install-recommends cuda-libraries-10-1
+```
+
 '''
 
 
