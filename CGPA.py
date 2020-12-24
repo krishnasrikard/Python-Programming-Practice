@@ -3,19 +3,16 @@ import pandas as pd
 
 df = pd.read_csv('CGPA.csv')
 
-courses = (df['Course'].to_numpy())
-credit = (df['Credits'].to_numpy())
-grade = (df['Grade'].to_numpy())
-
-print (courses)
+Courses = (df['Course'].to_numpy())
+Credits = (df['Credits'].to_numpy())
+Grades = (df['Grade'].to_numpy())
 
 Map = {'A+':10, 'A':10, 'A-':9, 'B':8, 'B-':7, 'C':6, 'C-':5, 'D':4}
 
-for i in range(grade.shape[0]):
-	grade[i] = Map[grade[i]]
+for i in range(Grades.shape[0]):
+	Grades[i] = Map[Grades[i]]
 	
-CGPA = (np.sum(np.multiply(credit,grade)))/(np.sum(credit))
+CGPA = (np.sum(np.multiply(Credits,Grades)))/(np.sum(Credits))
 
-print (np.sum(np.multiply(credit,grade)))
-print (np.sum(credit))
+print (np.sum(Credits))
 print (np.round(CGPA,decimals=5))

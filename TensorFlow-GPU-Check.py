@@ -25,8 +25,6 @@ sudo apt-get install --no-install-recommends cuda-libraries-10-1
 
 '''
 
-
-
 with tf.device('/gpu:0'):
 	a = tf.constant([[1.0, 2.0, 3.0], [4.0, 5.0, 6.0]])
 	b = tf.constant([[1.0, 2.0], [3.0, 4.0], [5.0, 6.0]])
