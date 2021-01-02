@@ -3,16 +3,28 @@ import pandas as pd
 
 df = pd.read_csv('CGPA.csv')
 
-Courses = (df['Course'].to_numpy())
-Credits = (df['Credits'].to_numpy())
-Grades = (df['Grade'].to_numpy())
-
-Map = {'A+':10, 'A':10, 'A-':9, 'B':8, 'B-':7, 'C':6, 'C-':5, 'D':4}
-
-for i in range(Grades.shape[0]):
-	Grades[i] = Map[Grades[i]]
+def EstimateCGPA(df,ConsiderAdditionals):
+	Map = {'A+':10, 'A':10, 'A-':9, 'B':8, 'B-':7, 'C':6, 'C-':5, 'D':4}
 	
-CGPA = (np.sum(np.multiply(Credits,Grades)))/(np.sum(Credits))
+	Credits = []
+	Grades = []
+	
+	for i in df.index:
+		if ConsiderAdditionals:
+			if df["Grade"][i] != 'S':
+				if df["Elective Type"][i] != 'Additional' or (df["Elective Type"][i] == 'Additional' and Map[df["Grade"][i]] > 8):
+					print ((df["Course"][i], df["Elective Type"][i], df["Credits"][i], df["Grade"][i]))
+					Credits.append(df["Credits"][i])
+					Grades.append(Map[df["Grade"][i]])
+		else:
+			if df["Grade"][i] != 'S' and df["Elective Type"][i] != 'Additional':
+				print ((df["Course"][i], df["Credits"][i], df["Grade"][i]))
+				Credits.append(df["Credits"][i])
+				Grades.append(Map[df["Grade"][i]])
+				
+	CGPA = (np.sum(np.multiply(Credits,Grades)))/(np.sum(Credits))
+	
+	return CGPA
 
-print (np.sum(Credits))
-print (np.round(CGPA,decimals=5))
+CGPA = EstimateCGPA(df,True)
+print ("CGPA:",CGPA)

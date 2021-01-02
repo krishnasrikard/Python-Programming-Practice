@@ -1,44 +1,66 @@
-Course,Credits,Faculty,Grade
-Bio-Engineering,1,Renu John Sir,B
-Electric Circuits,1,Sushmee Madam,A-
-Magnetic Circuits,1,Sushmee Madam,A
-Applied Digital Logic Design,1,GVV Sharma Sir,A-
-Signals and Systems,1,K.Sri Rama Murthy Sir,A-
-Internet of Things (IOT),1,RajyaLakshmi Madam,B
-Independent Project,1,V.Seshadri Sravan Kumar Sir,A
-Digital Fabrication,2,Prasad Onkar Sir,A-
-Socio-Cultural Perspectives to AI,1,Ananditha Madam,A+
-Calculus-I,1,Venku Naidu Sir,B
-Calculus-II,2,Tanmoy Paul Sir and Pradipto Sir,A-
-Classical Physics,1,Prempal Sir,A-
-Introduction to Drones,1,RajyaLakshmi Madam,A
-Introduction to Computing,2,GVV Sharma Sir,B
-Independent Project,1,Koushik Nayak Sir,A
-Vector Calculus,1,Bhakti Bhushan Sir,B-
-Differential Equations,1,Neeraj Kumar Sir,A
-Matrix Analysis,1,Zafar Sir,A-
-Data Analytics,2,Abhinav Kumar Sir,A
-Basic Control Theory,1,V.Siva RamaKrishna Sir,A-
-Introduction to AI and ML,1,GVV Sharma Sir,A-
-Digital System Design,1,Gajendranath Sir,A-
-Communication Systems,1,Sai Dheeraj sir,A-
-Network Theory and Synthesis,2,V.Seshadri Sravan Kumar Sir and V.Siva RamaKrishna Sir,A-
-Introduction to Hardware Description Languages,2,Shishir Sir,B-
-"Language, Cognition and Artificial Intelligence",1,Prakash Sir,A-
-Artificial Intelligence ,1,Srijith Sir,A-
-Thinking About Gender,1,Ananditha Madam,A-
-Transformers and DC Machines,2,Rupesh Sir,A-
-Random Processes,1,Adithya Siripuram Sir,B
-Analog Electronics,2,Gajendranath Sir,A-
-Semiconductor Funadmentals,1,Shiv Govind Sir,A-
-DSP,1,K.Sri Rama Murthy Sir,B-
-Electronic Devices and Circuits,1,Shiv Govind Sir,A
-Engineering Electromagnetics,2,V.Seshadri Sravan Kumar Sir/Naresh Sir,A
-Digital Modulation Techniques,1,Lakshmi Prasad Natrajan Sir,A-
-Independent Project,1,V.Seshadri Sravan Kumar Sir/Naresh Sir,A
-Environmental Chemistry - 1,1,Tarun K Panda/F A Khan Sir,B
-Chemistry Lab,2,Surajit Maiti Sir,A+
-Complex Variables,1,Subrahmanya Sastry Challa,B
-Information Sciences,1,Shashank Vatedka,A-
-Control Systems,2,GVV Sharma Sir,A
-Dynamics of Chemical Systems-I,1,Surendra Kumar Martha,B
+Course ID,Course,Elective Type,Credits,Faculty,Grade
+BM1030,Bio-Engineering,Basic Sciences,1,Renu John Sir,B
+EE1010,Electric Circuits,Departmental Core Theory,1,Sushmee Madam,A-
+EE1020,Magnetic Circuits,Departmental Core Theory,1,Sushmee Madam,A
+EE1110,Applied Digital Logic Design,Departmental Core Theory,1,GVV Sharma Sir,A-
+EE1350,Signals and Systems,Departmental Core Theory,1,K.Sri Rama Murthy Sir,A-
+ID1350,Internet of Things (IOT),Basic Engineering Skills,1,RajyaLakshmi Madam,B
+ID1035,Independent Project,Basic Engineering Skills,1,V.Seshadri Sravan Kumar Sir,A
+ID1054,Digital Fabrication,Basic Engineering Skills,2,Prasad Onkar Sir,A-
+LA1490,Socio-Cultural Perspectives to AI,Liberal Arts Elective,1,Ananditha Madam,A+
+MA1110,Calculus-I,Basic Sciences,1,Venku Naidu Sir,B
+MA1220,Calculus-II,Basic Sciences,2,Tanmoy Paul Sir and Pradipto Sir,A-
+EP1017,Classical Physics,Basic Sciences,1,Prempal Sir,A-
+ID1393,Introduction to Drones,Basic Engineering Skills,1,RajyaLakshmi Madam,A
+EE1083,Introduction to Computing,Departmental Core Theory,2,GVV Sharma Sir,B
+EE1025,EE Independent Project,Departmental Core Theory,1,Koushik Nayak Sir,A
+MA1130,Vector Calculus,Basic Sciences,1,Bhakti Bhushan Sir,B-
+MA1150,Differential Equations,Basic Sciences,1,Neeraj Kumar Sir,A
+EE1040,Matrix Analysis,Departmental Core Theory,1,Zafar Sir,A-
+EE1370,Data Analytics,Departmental Core Theory,2,Abhinav Kumar Sir,A
+EE1210,Basic Control Theory,Departmental Core Theory,1,V.Siva RamaKrishna Sir,A-
+EE1390,Introduction to AI and ML,Departmental Core Theory,1,GVV Sharma Sir,A-
+EE1120,Digital System Design,Departmental Core Theory,1,Gajendranath Sir,A-
+EE1360,Communication Systems,Departmental Core Theory,1,Sai Dheeraj sir,A-
+EE1050,Network Theory and Synthesis,Departmental Core Theory,2,V.Seshadri Sravan Kumar Sir and V.Siva RamaKrishna Sir,A-
+EE1193,Introduction to Hardware Description Languages,Departmental Core Theory,2,Shishir Sir,B-
+LA1530,"Language, Cognition and Artificial Intelligence",Liberal Arts Elective,1,Prakash Sir,A-
+ID1050,Artificial Intelligence ,Free Elective,1,Srijith Sir,A-
+LA1350,Thinking About Gender,Liberal Arts Elective,1,Ananditha Madam,A-
+EE2210,Transformers and DC Machines,Basic Sciences,2,Rupesh Sir,A-
+EE2310,Random Processes,Departmental Core Theory,1,Adithya Siripuram Sir,B
+EE2133,Analog Electronics,Departmental Core Theory,2,Gajendranath Sir,A-
+EE2187,Semiconductor Funadmentals,Departmental Core Theory,1,Shiv Govind Sir,A-
+EE2350,DSP,Departmental Core Theory,1,K.Sri Rama Murthy Sir,B-
+EE2188,Electronic Devices and Circuits,Departmental Core Theory,1,Shiv Govind Sir,A
+EE2010,Engineering Electromagnetics,Departmental Core Theory,2,V.Seshadri Sravan Kumar Sir/Naresh Sir,A
+EE2320,Digital Modulation Techniques,Departmental Core Theory,1,Lakshmi Prasad Natrajan Sir,A-
+EE2015,EE Independent Project,Departmental Core Theory,1,V.Seshadri Sravan Kumar Sir/Naresh Sir,A
+CY1017,Environmental Chemistry - 1,Basic Sciences,1,Tarun K Panda/F A Khan Sir,B
+CY1031,Chemistry Laboratory,Basic Sciences,2,Surajit Maiti Sir,A+
+CS3510,Operating Systems 1,Additional,1,Dr. Bheemarjuna Reddy Tamma Sir,B
+CS2305,Research Internship,Additional,1,Srijith Sir,B
+CY1020,Dynamics of Chemical Systems-1,Free Elective,1,Surendra Kumar Martha Sir,B
+EE2025,EE Independent Project,Departmental Core Theory,1,Shashank Sir,S
+EE2134,Analog System Design,Departmental Core Theory,2,Gajendranath Sir,S
+EE2189,Physics of MOS Transistors,Departmental Core Theory,2,Naresh Sir,S
+EE2211,Electrical Machines Lab,Departmental Core Laboratory,2,Ravi Kumar Sir,S
+EE2220,AC Machines,Departmental Core Theory,2,Rupesh Sir,S
+EE2227,Control Systems,Departmental Core Theory,2,GVV Sharma Sir,A
+EE2340,Information Sciences,Departmental Core Theory,1,Shashank Sir,A-
+EE2370,Advanced DSP,Departmental Core Theory,2,Kiran Kumar Kuchi Sir,S
+LA1710,Poverty and Inequality,Liberal Arts Elective,1,Amrita Datta Madam,S
+MA2130,Complex Variables,Basic Sciences,1,Subrahmanya Sastry Sir,B
+CS3550,DBMS-1,Free Elective,1,Manohar Sir,B
+EE2237,Power Electronics,Departmental Core Theory,2,Siva Kumar Sir,A+
+EE3010,Wave Propagation and Transmission Lines,Departmental Core Theory,2,K Nayak Sir,A-
+EE3113,Introduction to VLSI Design,Departmental Core Theory,2,Naresh Sir,A-
+EE3180,Sensor Technology for Intelligent Healthcare Systems,Departmental Core Theory,1,Shishir Sir,A-
+EE3210,Smart Grid,Departmental Core Theory,1,Pradeep Sir,A
+EE3220,Power System Practice,Departmental Core Theory,2,Pradeep Sir,A
+EE5377,Introduction to Image Processing,Departmental Elective,1,Sumohana Sir,A-
+EE5601,Representation Learning,Additional,1,Sumohana Sir,A
+EE5602,Probabilistic Graphical Models,Additional,1,Sumohana Sir,A
+EE5630,Topics in Signal Processing,Departmental Elective,2,Aditya T Siripuram,B
+LA1190,Ethics and Modern Political Theory,Liberal Arts Elective,1,Indira Jalli,C
+MA2110,Probability,Basic Sciences,1,Amit Tripati Sir,A
