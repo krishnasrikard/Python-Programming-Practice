@@ -8,23 +8,27 @@ def EstimateCGPA(df,ConsiderAdditionals):
 	
 	Credits = []
 	Grades = []
+	S_Grade_Credits = 0
 	
 	for i in df.index:
 		if ConsiderAdditionals:
 			if df["Grade"][i] != 'S':
-				if df["Elective Type"][i] != 'Additional' or (df["Elective Type"][i] == 'Additional' and Map[df["Grade"][i]] > 8):
-					print ((df["Course"][i], df["Elective Type"][i], df["Credits"][i], df["Grade"][i]))
-					Credits.append(df["Credits"][i])
-					Grades.append(Map[df["Grade"][i]])
-		else:
-			if df["Grade"][i] != 'S' and df["Elective Type"][i] != 'Additional':
-				print ((df["Course"][i], df["Credits"][i], df["Grade"][i]))
 				Credits.append(df["Credits"][i])
 				Grades.append(Map[df["Grade"][i]])
+			else:
+				S_Grade_Credits += df["Credits"][i]
+			print ((df["Course"][i], df["Credits"][i], df["Grade"][i]))
+				
+		elif df["Elective Type"][i] != 'Additional':
+			if df["Grade"][i] != 'S' :
+				Credits.append(df["Credits"][i])
+				Grades.append(Map[df["Grade"][i]])
+			else:
+				S_Grade_Credits += df["Credits"][i]
+			print ((df["Course"][i], df["Credits"][i], df["Grade"][i]))
 				
 	CGPA = (np.sum(np.multiply(Credits,Grades)))/(np.sum(Credits))
-	
-	return np.round(CGPA,decimals=2)
+	return np.round(CGPA,decimals=2), np.sum(Credits) + S_Grade_Credits
 
-CGPA = EstimateCGPA(df,False)
-print ("CGPA:",CGPA)
+CGPA, Credits = EstimateCGPA(df,True)
+print ("CGPA = " + str(CGPA) + ", Credits = " + str(Credits))

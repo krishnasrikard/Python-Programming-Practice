@@ -7,12 +7,12 @@ from wordcloud import WordCloud
 import random
 
 Text = ""
-Names = ['Srikar', 'Vignesh', 'Ashish', 'Kotesh', 'Abhi', 'Saketh', 'Harsha', 'SubbaRao', 'Dhanumjai']
+Names = ["Lucifer", "Thomas Shebly", "James.T.Kirk", "James Herbert Bond", "Ethan Mathew Hunt", "Captain Jack Sparrow", "William Sherlock Scott Holmes", "Jon Snow"]
 
 for i in range(180):
 	Text = Text + random.choice(Names) + " "
 
-wordcloud = WordCloud(colormap='gist_ncar', background_color='black').generate(Text)
+wordcloud = WordCloud(colormap='jet', background_color='black').generate(Text)
 
 plt.imshow(wordcloud, interpolation='bilinear')
 plt.axis('off')
