@@ -30,5 +30,5 @@ def EstimateCGPA(df,ConsiderAdditionals):
 	CGPA = (np.sum(np.multiply(Credits,Grades)))/(np.sum(Credits))
 	return np.round(CGPA,decimals=2), np.sum(Credits) + S_Grade_Credits
 
-CGPA, Credits = EstimateCGPA(df,True)
+CGPA, Credits = EstimateCGPA(df,False)
 print ("CGPA = " + str(CGPA) + ", Credits = " + str(Credits))

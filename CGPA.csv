@@ -38,7 +38,7 @@ EE2320,Digital Modulation Techniques,Departmental Core Theory,1,Lakshmi Prasad N
 EE2015,EE Independent Project,Departmental Core Theory,1,V.Seshadri Sravan Kumar Sir/Naresh Sir,A
 CY1017,Environmental Chemistry - 1,Basic Sciences,1,Tarun K Panda/F A Khan Sir,B
 CY1031,Chemistry Laboratory,Basic Sciences,2,Surajit Maiti Sir,A+
-CS3510,Operating Systems 1,Additional,1,Dr. Bheemarjuna Reddy Tamma Sir,B
+CS3510,Operating Systems 1,Free Elective,1,Dr. Bheemarjuna Reddy Tamma Sir,B
 CS2305,Research Internship,Additional,1,Srijith Sir,B
 CY1020,Dynamics of Chemical Systems-1,Free Elective,1,Surendra Kumar Martha Sir,B
 EE2025,EE Independent Project,Departmental Core Theory,1,Shashank Sir,S
@@ -59,8 +59,8 @@ EE3180,Sensor Technology for Intelligent Healthcare Systems,Departmental Core Th
 EE3210,Smart Grid,Departmental Core Theory,1,Pradeep Sir,A
 EE3220,Power System Practice,Departmental Core Theory,2,Pradeep Sir,A
 EE5377,Introduction to Image Processing,Departmental Elective,1,Sumohana Sir,A-
-EE5601,Representation Learning,Additional,1,Sumohana Sir,A
-EE5602,Probabilistic Graphical Models,Additional,1,Sumohana Sir,A
+EE5601,Representation Learning,Departmental Elective,1,Sumohana Sir,A
+EE5602,Probabilistic Graphical Models,Departmental Elective,1,Sumohana Sir,A
 EE5630,Topics in Signal Processing,Departmental Elective,2,Aditya T Siripuram,B
 LA1190,Ethics and Modern Political Theory,Liberal Arts Elective,1,Indira Jalli,C
 MA2110,Probability,Basic Sciences,1,Amit Tripati Sir,A
@@ -71,19 +71,23 @@ EE3120,Microprocessor and Computer Arch,Departmental Core Theory,2,Shishir Sir,B
 EE3260,Renewable Energy & Power Systems,Departmental Core Theory,1,Pradeep Sir,A+
 EE3320,Wireless Communications,Departmental Core Theory,1,Zafar Sir,A
 EE5342,Detection Theory,Departmental Elective,1,Lakshmi Prasad Natrajan Sir,A-
-EE5357,Estimation Theory,Additional,1,Shashank Sir,A+
+EE5357,Estimation Theory,Departmental Elective,1,Shashank Sir,A+
 EE5390,Source Coding,Departmental Elective,1,Shashank Sir,A-
 EE6317,Channel Coding,Departmental Elective,1,Shashank Sir,A
 EP2127,Astroparticle Physics,Basic Engineering Skills,1,Anjan Kumar Giri Sir,A
-ET5230,Energy Audit,Additional,1,Pradeep Sir,A-
+ET5230,Energy Audit,Free Elective,1,Pradeep Sir,A-
 LA1150,Cultures of the world,Liberal Arts Elective,1,Chandan Bose,A
 MA4240,Applied Statistics,Free Elective,3,Sameen Naqvi Madam,A
 PH5287,Special Functions & Differential Equations,Basic Sciences,1,Raghavendra Srikanth Hundi,B
 CA1028,Introduction to Creative Writing,Creative Arts,1,Haripriya Madam,A
-EE3302,Electromagnetic Wave Propagation,Additional,3,K Nayak Sir,A-
+EE3302,Electromagnetic Wave Propagation,Departmental Elective,3,K Nayak Sir,A-
 EE4013,C and Data Structures,Departmental Core Theory,2,GVV Sharma Sir,A-
 EE4015,EE Independent Project,Departmental Core Laboratory,3,Sumohana Sir,A
 EE6310,Image and Video Processing,Departmental Core Laboratory,3,Sumohana Sir,A
 ET5040,Energy Management,Free Elective,1,Pradeep Sir,A
 LA1770,Personality Development,Liberal Arts Elective,1,M P Ganesh Sir,A-
 MA3140,Statistical Inference,Basic Sciences,3,Sameen Naqvi Madam,A
+CA1042,"Western Classical Music through Bach, Beethoven and Brahms",Creative Arts,1,Haripriya Narasimhan Madam,A-
+EE4025,EE Independent Project,Departmental Core Laboratory,3,Sai Dheeraj Sir,A
+ID4006,Ethics and Values,Professional Ethics,1,M P Ganesh Sir,A
+MA2142,Regression Analysis,Free Elective,1,Sayantee Jana Madam,B
